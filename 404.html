@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page being restored | POSTECH Logistics Lab</title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;max-width:640px;margin:15vh auto;padding:0 24px;color:#222;line-height:1.6}
+  h1{font-size:1.4rem;margin-bottom:.5rem}
+  a{color:#0b5cad}
+  code{background:#f2f2f2;padding:2px 6px;border-radius:4px;word-break:break-all}
+</style>
+</head>
+<body>
+<h1>This page is being restored</h1>
+<p>Our server has been migrated, and some benchmark pages are still being restored.</p>
+<p>Requested: <code id="p"></code></p>
+<p>
+  &rarr; <a href="https://plogistics.postech.ac.kr/research/topics-benchmark-problems">Topics &amp; Benchmark Problems</a><br>
+  &rarr; <a href="https://plogistics.postech.ac.kr/">POSTECH Logistics Lab homepage</a><br>
+  &rarr; Need the dataset now? Contact <a href="mailto:logisticslaboratory@gmail.com">logisticslaboratory@gmail.com</a>
+</p>
+<script>document.getElementById("p").textContent = decodeURIComponent(location.pathname);</script>
+</body>
+</html>
